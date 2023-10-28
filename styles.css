@@ -1,0 +1,497 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #120f1a;
+
+}
+
+.sidebar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* width: 10vw; */
+    background-color: #120f1a;
+
+    /* transition: 0.3s ease-in; */
+
+    height: 100vh;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.sidebar ul li {
+    padding: 60px 15px;
+    list-style: none;
+
+}
+
+.sidebar ul {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    color: rgb(177, 181, 160);
+
+}
+
+.main {
+    /* background-color: rgb(163, 175, 182); */
+    background-color: #07050c;
+
+    color: white;
+    width: 100vw;
+    height: 104vh;
+
+}
+
+.container {
+    display: flex;
+    /* width: 100vw; */
+
+}
+
+.containerinfo {
+    margin: 203px auto;
+    /* background-color:#130f1c; */
+
+    flex-wrap: wrap;
+    /* height: 69vh;
+    width: 81vw; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.pic img {
+    height: 69vh;
+    opacity: 0.7;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.intro {
+    font-size: 55px;
+}
+
+.name {
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+.about {
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+.moreabout {
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.btn button {
+    background-color: #1c1924;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 9px;
+    margin-right: 14px;
+    border-radius: 7px;
+}
+
+.btn button:hover {
+    background-color: rgb(32, 48, 54);
+    color: rgb(244, 245, 245);
+}
+
+.contact {
+
+    background-color: #07050c;
+    height: 100vh;
+    width: 90vw;
+}
+
+form {
+    background-color: #07050c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact1 {
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+}
+
+.form-group {
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#exampleInputEmail1 {
+    /* background-color: ; */
+
+    padding: 10px;
+    border: 2px solid rgb(253, 248, 248);
+    border-radius: 5px;
+    width: 600px;
+    background-color: #1c1924;
+
+}
+
+#exampleInputPassword1 {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #1c1924;
+    width: 600px;
+}
+
+.btn12 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn11 {
+    margin-left: 0px;
+    margin-top: 19px;
+    padding: 7px;
+    border: 2px solid rgb(205, 202, 202);
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #07050c;
+    color: white;
+    width: 100px;
+    margin: 13px;
+}
+
+.btn11:hover {
+    background-color: #07050c;
+
+    color: rgb(244, 245, 245);
+}
+
+#emailHelp {
+    font-size: 10px;
+}
+
+.form-check {
+    margin-left: 12px;
+}
+
+
+
+.about1 {
+
+
+    background-color: #1c1924;
+    margin-top: 0px;
+    width: 100vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 79px
+}
+
+.col-md-5 img {
+    margin-top: 30px;
+    margin-right: 43px;
+}
+
+.col-md-7 p {
+    font-size: 20px;
+}
+
+.box11 {
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+}
+
+.nav1 {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 85px;
+    width: 100vw;
+    background-color: #24202e;
+    color: #dedf9d;
+}
+
+.heading {
+    font-size: 30px;
+    color: darksalmon;
+}
+
+.lead {
+    color: #acaabd;
+}
+
+.ham {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+}
+
+.cross {
+    margin-left: 86px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.container {
+    background-color: #120f1a;
+    margin-top: -17px;
+
+}
+
+.blogs {
+    background-color: #07050c;
+
+    color: white;
+    width: 100vw;
+
+
+}
+
+.blogs2 {
+
+    margin-bottom: 20px;
+    margin-top: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.fact {
+    font-size: 29px;
+    color: #b75050;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+
+}
+
+.box2 {
+
+
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 34px;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    color: rgb(161 150 150);
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+
+}
+.blog-heading{
+    /* background-color: #286439; */
+    background-color: #07050c;
+
+
+    height: 92px;
+    width: 95vw;
+    /* background-color: white; */
+    color: rgb(177, 171, 171);
+    font-size: 47px;
+    margin-top: -74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 0p; */
+}
+.blog-heading1{
+    margin-left: -91px;
+    /* background-color: #07050c; */
+
+}
+
+@media only screen and (max-width: 1000px) {
+    
+
+    .box2 {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .fact {
+        font-size: 20px;
+    }
+
+    .blogs2 {
+        margin: 81px 20px 14px 23px;
+    }
+
+    .blog-heading {
+        font-size: 29px;
+    }
+
+    .contact1 {
+        height: 430px;
+        font-size: 10px;
+        padding-top: 125px;
+    }
+
+    .btn11 {
+        width: 85px;
+        margin: 5px;
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    #exampleInputPassword1 {
+        padding: 6px;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: #1c1924;
+        width: 215px;
+    }
+
+    .containerinfo {
+        margin: 105px auto;
+    }
+
+    .btn button {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic img {
+        height: 50vh;
+        margin-top: 20px;
+        opacity: 0.7;
+    }
+
+    .intro,
+    .name {
+        font-size: 31px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .moreabout {
+        margin-top: 10px;
+
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .nav1 {
+        font-size: 22px;
+        height: 92px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        margin-left: 12px;
+        margin-right: 26px;
+    }
+
+    .heading {
+        font-size: 23px;
+    }
+
+    .col-md-7 p {
+        font-size: 14px;
+    }
+
+    .col-md-5 img {
+        margin-top: 42px;
+    }
+
+    #viru img {
+        margin-top: 55px;
+    }
+
+    #jay img {
+        margin-top: -16px;
+        margin-bottom: 16px;
+    }
+
+    .heading1 {
+        margin-top: 15px;
+    }
+
+    .contact1 {
+        font-size: 11px;
+        padding-top: 37px;
+    }
+
+    #exampleInputEmail1 {
+        padding: 5px;
+        width: 220px;
+    }
+}
